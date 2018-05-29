@@ -1,5 +1,4 @@
-# ImageClassificationStateLicenses
-US State Drivers Licenses Image Classification using Microsoft Cognitive Services
+# Image Classification Walkthrough of State Licenses
 
 ![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/CognitiveServicesImage.png)
 
