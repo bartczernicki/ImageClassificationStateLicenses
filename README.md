@@ -1,2 +1,6 @@
 # ImageClassificationStateLicenses
 US State Drivers Licenses Image Classification using Microsoft Cognitive Services
+
+This walkthrough demonstrates howto build an image classification model using Microsoft Cognitive Services.  This walkthrough includes:
+- Training and validation images of drivers licenses of the following states: California, Illinois, New Jersey, New York & Texas
+- Steps to create the image classifier using Microsoft Cognitive Services Custom Vision
