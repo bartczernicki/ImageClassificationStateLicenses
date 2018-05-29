@@ -1,4 +1,4 @@
-# Walkthrough - Building Image Classification of State Licenses using Microosft Cognitive Services
+# Walkthrough - Building Image Classification of State Licenses using Microsoft Cognitive Services
 
 ![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/CognitiveServicesImage.png)
 
