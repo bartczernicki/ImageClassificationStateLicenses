@@ -1,5 +1,5 @@
 <a name="Title"></a>
-# Walkthrough - Building an Image Classifier of State Licenses using Microsoft Cognitive Services
+# Walkthrough - Building an Image Classifier of State Licenses using Microsoft Cognitive Services Custom Vision
 
 ![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/CognitiveServicesImage.png)
 
