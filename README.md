@@ -72,7 +72,12 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 ### Task 2: Building an Image Classifier, Evaluating Performance & Making New Predictions ###
 
-1. You are ready to build a image classifier.  To build the first model, simply click the green **Train** button highlighted in the screenshot below.
+1. You are ready to build a image classifier.  To build the first model, simply click the green **Train** button highlighted in the screenshot below. In the Custom Vision service it is that easy!
 <p align="center">
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-Train.png">
+</p>
+
+2. The Cusom Vision service has begun training an image classifier.  You will be shown a screen that highlights the progress.  After a few minutes, a web screen will display the **performance characteristics** of the built classifier in both summary (overall model performance) and for each different type of license.  These metrics can help you quickly baseline the quality of your classifier.  The screenshot below shows the performance metrics UI:
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-PostTrain.png">
 </p>
