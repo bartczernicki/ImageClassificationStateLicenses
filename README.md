@@ -5,7 +5,7 @@
 
 <a name="Overview"></a>
 ## Overview ##
-Microsoft Cognitive Services **Custom Vision** allows non-professional data scientists build custom cognitive classifiers using adaptive learning.  All that is required is good knowledge of your domain data!
+**Microsoft Cognitive Services Custom Vision** allows non-professional data scientists build custom cognitive classifiers using adaptive learning.  All that is required is good knowledge of your domain data, since all the work is done in the browser!
 
 This walkthrough demonstrates howto build an image classifier (classification model) using Microsoft Cognitive Services.  This walkthrough includes step by step instructions using the Custom Vision portal; requiring zero code.
 
@@ -86,7 +86,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - You have only uploaded a small amount of images.  Custom Vision (at a minimum) requires 15 images of each type.  For example, you only have 9 images for Texas.
 - Notice the **Probability Threshold** on the top left.  This is a default decision boundary of selecting an actual prediction for the Precision/Recall metric calculations.  This is set to 50%.  In order to count positively towards the Precision & Recall metrics, the classifier needs to be at least 50% "certain" that an image is going to be labeled as such.  However, note we have 5 different state license types.  You could have a scenario where one image is predicted to be 44% likely to be one type and the other four types to be just 14% each.  Even though it is below 50%, the gap between 44% versus 14% is great enough that the likelyhood of the prediction is high.
 
-Note: For more information on Precision & Recall, navigate to: https://en.wikipedia.org/wiki/Precision_and_recall
+> For more information on Precision & Recall, navigate to: https://en.wikipedia.org/wiki/Precision_and_recall
 
 4. Now that you have baseline performance metrics, you can test the actual performance of the classifier by testing new images it has never seen before (images it was **NOT** trained with).  Click the **Predictions** tab on the top navigation menu.  Next select **Quick Test**.  Finally select the **Browse local files** button and select an image from the **Validation** folder.  Note: you can select any image, but it is important to select images from the Validation folder to ensure that the classifier has not seen this image before.  Screenshot below highlights the correct folder location.
 <p align="center">
