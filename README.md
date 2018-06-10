@@ -5,7 +5,7 @@
 
 <a name="Overview"></a>
 ## Overview ##
-Microsoft Cognitive Services Custom Vision allows non-professional data scientists build custom cognitive classifiers using adaptive learning.  All that is required is good knowledge of your domain data.
+Microsoft Cognitive Services **Custom Vision** allows non-professional data scientists build custom cognitive classifiers using adaptive learning.  All that is required is good knowledge of your domain data!
 
 This walkthrough demonstrates howto build an image classifier (classification model) using Microsoft Cognitive Services.  This walkthrough includes step by step instructions using the Custom Vision portal; requiring zero code.
 
@@ -24,9 +24,17 @@ This walkthrough demonstrates howto build an image classifier (classification mo
 
 - An internet connection & a browser
 - Download the training & validation image set from this repository
-- An Azure subscription is **NOT REQUIRED**
+- An Azure subscription is **NOT REQUIRED**, we will use the FREE trial
 
 <a name="Intended Audience"></a>
 ## Intended Audience ##
 
 This lab is intended for aspiring AI professionals that would like to learn more about the Microsoft Cognitive Services Custom Vision service functionality.
+
+### Task 1: Creating a Custom Vision Project & Adding Training Data ###
+
+1. Download the **Drivers Licenses training & validation Images** that are located in there DriversLicenesImages in this repository: https://github.com/bartczernicki/ImageClassificationStateLicenses/tree/master/DriversLicensesImages
+
+1. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account)
+
+1. 
