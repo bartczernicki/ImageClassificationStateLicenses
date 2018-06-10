@@ -126,3 +126,8 @@ This lab is intended for aspiring AI professionals that would like to learn more
 > **Note:** If the Export button is greyed out (or does not appear) you need to change to a Compact domain type.  This can be done using the Setting menu.  Use the gears menu item on the top tab to access this.
 
 > **Note:** The ONNX format is an acronym for the **Open Neural Network Exchange** format.  It allows you to convert between various AI persisted formats.  This format is starting to become ubiquitous and faciliatates a standard method of persisting a neural network architecture.
+
+<a name="Summary & Next Steps"></a>
+## Summary & Next Steps ##
+
+In this walkthrough lab you have learned howto build an image classifier easily using the Custom Vision Service and by adding  your own data.  There was zero code required and Microsoft provided a serverless (abstracted compute) architecture service in a web UI to be productive immediately.
