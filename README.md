@@ -69,4 +69,10 @@ This lab is intended for aspiring AI professionals that would like to learn more
 </p>
 
 
+
 ### Task 2: Building an Image Classifier, Evaluating Performance & Making New Predictions ###
+
+1. You are ready to build a image classifier.  To build the first model, simply click the green **Train** button highlighted in the screenshot below.
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-Train.png">
+</p>
