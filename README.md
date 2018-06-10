@@ -105,3 +105,24 @@ This lab is intended for aspiring AI professionals that would like to learn more
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddNewTags.png">
 </p>
 
+8. If you have completed the step above (Step 7), you now have new tagged (labeled) images.  This means the model (image classifier) can be made smarter by retraining with more images than you started with.  Simply by going through the process of adding new tags/labels, the training pool of images is automatically expanded.  **Click the (green) Train** button on the top menu and this will re-train the model with a new version (the Custom Vision service calls it Iteration).  After the model is built, notice that the performance characterstics of Precision/Recall are changed.  **Compare the iterations** by clicking the different iteration numbers; note that Recall/Precision change (hopefully they are going up).
+
+> Note: Machine Learning & Data Science are iterative processes.  They demand constantly evolving with new examples of data to improve their predictive power.  As you can see, the **Custom Vision Service** facilitates this process directly in the UI by easily allowing you to tag new images and with a push of a Train button craft a new model.
+
+9. Up to this point, you have seen how easily it is to test new images using the web UI.  However, what if you wanted to put this model into production and be able to deliver images for predictions automatically?  The Custom Vision service allows you to do this in two key different ways:
+- an API using RESTful conventions is automatically created for you after training your first (and subsequent) models.  This API can be automated to make new predictions using any programming language that can "talk to" REST URIs.
+- using the **Compact** model type, you can export the models into a self-contained serialized model file or a Docker container.  This allows you to deploy cognitive models "in process" close to your software logic or take a Docker container and host wherever Docker can run.  What this means is that you can take a classifier and consume it on **ANY** public cloud, hybrid or even on-premises envionment!  How cool is that?
+
+10. For the **Prediction URL**, select the **Prediction URL** button that can be found under the **Performance** tab.  You can see required schema in order to craft a proper request to make a prediction.  (Screenshot shown below)
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-PredictionURL.png">
+</p>
+
+11. In order to **Export your model**, select the **Export** button that can be found under the Performance tab.  Selecting this button will bring up a right-hand menu for the type of export that can be done.  You can export model types that target: iOS devices, Andtroid devices, Windows/macOS/Linux servers and even Docker containers.  The Screenshot below displays the various export options.
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-ExportCompactModel.png">
+</p>
+
+> Note: If the Export button is greyed out (or does not appear) you need to change to a Compact domain type.  This can be done using the Setting menu.  Use the gears menu item on the top tab to access this.
+
+> Note: The ONNX format is an acronym for the **Open Neural Network Exchange** format.  It allows you to convert between various AI persisted formats.  This format is starting to become ubiquitous and faciliatates a standard method of persisting a neural network architecture.
