@@ -24,7 +24,7 @@ This walkthrough demonstrates howto build an image classifier (classification mo
 
 - An internet connection & a browser
 - Download the training & validation image set from this repository
-- An Azure subscription is **NOT REQUIRED**, we will use the FREE trial
+- An Azure subscription is **NOT REQUIRED**, we will use the FREE trial SKU
 
 <a name="Intended Audience"></a>
 ## Intended Audience ##
@@ -35,6 +35,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 1. Download the **Drivers Licenses training & validation Images** that are located in there DriversLicenesImages in this repository: https://github.com/bartczernicki/ImageClassificationStateLicenses/tree/master/DriversLicensesImages
 
-1. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account)
+1. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account).  If prompted, Agree to any terms of service.
 
-1. 
+1. Select the **New Project** buttom (image shown below)
+![Custom Vision - New Project](https://github.com/bartczernicki/ImageClassificationStateLicenses/WalkthroughImages/blob/master/CustomVision-NewProject.png)
