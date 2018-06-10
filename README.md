@@ -55,5 +55,6 @@ This lab is intended for aspiring AI professionals that would like to learn more
 ![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-SelectedTraining.png)
 
 8. The drivers licenses images will upload to the Custom Vision service.  You now need to let the service know what these images are.  In supervised Machine Learning poblems, this is called "labeling or tagging" of the data.  Since, all of the images we added belong to **NewYork** types of drivers licenses; simply enter **NewYork** under the **My Tags** field.  This will label all of the 19 drivers licenses images as NewYork. (Screenshot below)
-
-![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-Tagged.png)
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-Tagged.png">
+</p>
