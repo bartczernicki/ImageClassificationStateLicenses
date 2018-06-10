@@ -18,3 +18,15 @@ This walkthrough demonstrates howto build an image classifier (classification mo
 - Evaluate the Performance of the image classifier
 - Provide steps on howto consume the built image classifier
 - Next Steps
+
+<a name="Prerequisites"></a>
+## Prerequisites ##
+
+- An internet connection & a browser
+- Download the training & validation image set from this repository
+- An Azure subscription is **NOT REQUIRED**
+
+<a name="Intended Audience"></a>
+## Intended Audience ##
+
+This lab is intended for aspiring AI professionals that would like to learn more about the Microsoft Cognitive Services Custom Vision service functionality.
