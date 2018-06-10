@@ -31,7 +31,7 @@ This walkthrough demonstrates howto build an image classifier (classification mo
 
 This lab is intended for aspiring AI professionals that would like to learn more about the Microsoft Cognitive Services Custom Vision service functionality.
 
-### Task 1: Creating a Custom Vision Project & Adding Training Data ###
+### Task 1: Creating a Custom Vision Project & Adding Training Image Data ###
 
 1. Download the **Drivers Licenses training & validation Images** that are located in there DriversLicenesImages in this repository: https://github.com/bartczernicki/ImageClassificationStateLicenses/tree/master/DriversLicensesImages
 
@@ -63,5 +63,10 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 10. You have successfully uploaded & tagged (labeled) one set of drivers licenses images for NewYork.  However, in order to build a classifier that can distinguish between different types of drivers licenses; you need to provide examples of different drivers licens images.  **Repeat steps #7 - #9** for the remaing image types: **Illinois, NewJersey, California, Texas** using the respective files and tag name for each folder.  Select the **Add Images** button to repeat the image adding process.
 
-11. 
-11.  After 
+11. After you have uploaded all of your images and tagged (labeled) them, you should notice on the left-hand side a summary of the image assets that are contained in the Custom Vision service.  Before proceeding to the next task of building the classifier, ensure that all of the 5 different license types are present.  Your project summary pane should look similar to the screenshot below.
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-AllTagged.png">
+</p>
+
+
+### Task 2: Building an Image Classifier, Evaluating Performance & Making New Predictions ###
