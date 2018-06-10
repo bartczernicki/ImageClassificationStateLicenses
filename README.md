@@ -131,3 +131,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 ## Summary & Next Steps ##
 
 In this walkthrough lab you have learned howto build an image classifier easily using the Custom Vision Service and by adding  your own data.  There was zero code required and Microsoft provided a serverless (abstracted compute) architecture service in a web UI to be productive immediately.
+
+Next Steps:
+- Custom Vision Documentation: https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/
+- Custom Vision Video from //BUILD 2018: https://www.youtube.com/watch?v=ARkvs72uaxg
