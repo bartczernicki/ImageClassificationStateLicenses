@@ -81,3 +81,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 <p align="center">
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-PostTrain.png">
 </p>
+
+3. The **Precision** metric states the likelyhood of the predicition being correct.  The **Recall** metric states likelyhood of correctly tagging an actual drivers license tag.  For example, if our classifier is able to correctly predict an actual New York tag with a high degree of certainty (probability) then that would improve the **Recall** number.  If this is your first time building a classifier, you may think these numbers are low.  There are several ways we can improve this:
+- You have only uploaded a small amount of images.  Custom Vision (at a minimum) requires 15 images of each type.  For example, you only have 9 images for Texas.
+- Notice the **Probability Threshold** on the top left.  This is a default decision boundary of selecting an actual prediction for the Precision/Recall metric calculations.  This is set to 50%.  In order to count positively towards the Precision & Recall metrics, the classifier needs to be at least 50% "certain" that an image is going to be labeled as such.  However, note we have 5 different state license types.  You could have a scenario where one image is predicted to be 44% likely to be one type and the other four types to be just 14% each.  Even though it is below 50%, the gap between 44% versus 14% is great enough that the likelyhood of the prediction is high.
