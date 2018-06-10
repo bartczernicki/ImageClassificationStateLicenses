@@ -99,3 +99,9 @@ This lab is intended for aspiring AI professionals that would like to learn more
 </p>
 
 6. Take a look at the screenshot above.  Notice the image above is clearly a New York State drivers license and the model never having seen this image before was able to allocate a 73% probability to the **NewYork** tag (label).  Pretty cool, right?  As a human it is easy for us to note that it is a New York State license, because the image clearly states this several times.   However, the model (image classifier) doesn't know it did a good job.  It is time to tell your model that it performed well and give it a pat on the back.  Secondarily, since our model has seen this new image; why not add it to the image assets and make our model smarter (improve predictive poewer) by retraining it with the updated image set.
+
+7. Close any idividual side menus and select the **Predictions** tab in the main menu.  In that view, (assuming you completed Step 5 above) you should now see all of the images that your model "has scored" or "has made predictions on".  If you hover over each image, you will be displayed with a quick summary of the top tag predictions.  Note on the bottom right of each image there is a small **check box** button.  This allows you to select multiple images in bulk and tag them all at once.  This is super handy when your model (image classifier) is in production and you want to tag tens/hundreds of images at once to a single tag.  You can also select any individual image and this will bring you to a screen (shown below to enter the proper tag)
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddNewTags.png">
+</p>
+
