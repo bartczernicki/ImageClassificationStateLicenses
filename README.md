@@ -1,7 +1,7 @@
 <a name="Title"></a>
 # Walkthrough - Building an Image Classifier of State Licenses using Microsoft Cognitive Services Custom Vision
 
-![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/CognitiveServicesImage.png)
+![Cognitive Services UI Demo](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-WalkthroughCognitiveServices.png)
 
 <a name="Overview"></a>
 ## Overview ##
@@ -37,5 +37,14 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 1. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account).  If prompted, Agree to any terms of service.
 
-1. Select the **New Project** buttom (image shown below)
+1. Select the **New Project** buttom (Screenshot shown below)
+
 ![Custom Vision - New Project](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProject.png)
+
+1. A properties pane will appear on the right-hands side.  Give the project a **Name** (i.e. DemoStateLicenses).  Enter a **Description** (i.e. Image Classification of State Licenses).  In **Project Type** ensure that "Classification" is selected.  In the **Domain** selection fields, select "General (compact)"
+
+1. Select **Create Project** to create the new project.
+
+1. You now have a new project created.  In order to get started, you need to add some images.  Select the **Add Images** button from the center of the UI screen.  (Screenshot shown below with the button highlighted in red)
+
+![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages.png)
