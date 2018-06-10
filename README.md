@@ -38,4 +38,4 @@ This lab is intended for aspiring AI professionals that would like to learn more
 1. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account).  If prompted, Agree to any terms of service.
 
 1. Select the **New Project** buttom (image shown below)
-![Custom Vision - New Project](https://github.com/bartczernicki/ImageClassificationStateLicenses/WalkthroughImages/blob/master/CustomVision-NewProject.png)
+![Custom Vision - New Project](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProject.png)
