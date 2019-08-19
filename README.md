@@ -22,14 +22,14 @@ This walkthrough demonstrates how-to build an image classifier (classification m
 <a name="Prerequisites"></a>
 ## Prerequisites ##
 
-- An internet connection & a browser
+- An active internet connection & a browser
 - Download the training & validation image set from this repository
-- An Azure subscription is **NOT REQUIRED**, we will use the FREE trial SKU
+- An Azure subscription is **REQUIRED**, you can use any Azure subscription type (free trial, MSDN, Enterprise etc.)
 
 <a name="Intended Audience"></a>
 ## Intended Audience ##
 
-This lab is intended for aspiring AI professionals that would like to learn more about the Microsoft Cognitive Services Custom Vision service functionality.
+This lab is intended for aspiring AI professionals that would like to learn more about the Azure Cognitive Services Custom Vision service functionality.
 
 ### Task 1: Creating a Custom Vision Project & Adding Training Image Data ###
 
