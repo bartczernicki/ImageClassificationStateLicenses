@@ -76,7 +76,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - In the **Domains**, select **General** or **General (compact)**
 - Before proceeding, hover over the information icons to understand these settings further.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewProjectFull.png">
+  <img width=700 height=965 src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewProjectFull.png">
 </p>
 
 9. Select the **Create Project** button to create the new project.
