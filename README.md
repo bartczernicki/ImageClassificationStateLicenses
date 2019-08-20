@@ -62,7 +62,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - Select **F0** as the pricing tier.  This is the FREE pricing tier for Custom Vision.  If you would like to use this example for advanced testing, feel free to select more advanced pricing options.
 - Click the **Create resource** button to create the resource.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResource.png">
+  <img width=800 height=796 src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResource.png">
 </p>
 
 7. You will now be back in the **Create New Project** dialog.  Close the dialog by hitting the **Cancel** button.  There is a small bug, wher new resources sometimes are not refreshed.  Click the **New Project** button again.  You should now see the default resource filled in.
