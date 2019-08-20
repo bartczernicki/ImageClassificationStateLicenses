@@ -161,7 +161,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 11. In order to **Export your model**, select the **Export** button that can be found under the Performance tab.  Selecting this button will bring up a right-hand menu for the type of export that can be done.  You can export model types that target: iOS devices, Android devices, Windows/macOS/Linux servers and even Docker containers.  The Screenshot below displays the various export options.
 <p align="center">
-  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-ExportCompactModel.png">
+  <img width=800 height=800 src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-ExportCompactModel.png">
 </p>
 
 > **Note:** If the Export button is greyed out (or does not appear) you need to change to a Compact domain type.  This can be done using the Setting menu.  Use the gears menu item on the top tab to access this.
