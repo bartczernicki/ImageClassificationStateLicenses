@@ -114,7 +114,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 2. A dialog will appear to select the training type.  Two types are provided a Fast & Advanced training option.  Select, the **Fast Training** option.  This option is ideal for exploration of data and identifying the plausability of using AI - Custom Vision.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-ChooseTrainingType.png">
+  <img width="300" height="125" src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-ChooseTrainingType.png">
 </p>
 
 
