@@ -42,12 +42,12 @@ This lab is intended for aspiring AI professionals that would like to learn more
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProjectv2.png">
 </p>
 
-4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #6.  If you have a Custom Vision resource ready to use, please continue at step #7.
+4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #7.  If you have a Custom Vision resource ready to use, please continue at step #8.
 
-5. Click the **create new** link next to the **Resource Group** label.  The **Create New Resource Group** dialog will appear (Screenshot shown below).
+5. Select the Azure Subscription you want to use.  A **create new** link will appear next to the Resource Group label.  Next, click the **create new** link next to the **Resource Group** label.  The **Create New Resource Group** dialog will appear (Screenshot shown below).
 - In the Name label (fill in any name).  In this example, **DemoCustomVision** was used.
 - In the Location label, select the closest Azure location to you.  In this example, **East US 2** was used.
-- Click the **Create Resource Group** button to create the resource group.  This will take you back to the previous **Create New Resource** dialog.
+- Click the **Create Resource Group** button to create the resource group.  This will create the Resource Group and take you back to the previous **Create New Resource** dialog.
 <p align="center">
   <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResourceGroup.png">
 </p>
@@ -61,28 +61,40 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - Select **F0** as the pricing tier.  This is the FREE pricing tier for Custom Vision.  If you would like to use this example for advanced testing, feel free to select more advanced pricing options.
 - Click the **Create resource** button to create the resource.
 
-7. A properties pane will appear on the right-hands side.  Give the project a **Name** (i.e. DemoStateLicenses).  Enter a **Description** (i.e. Image Classification of State Licenses).  In **Project Type** ensure that "Classification" is selected.  In the **Domain** selection fields, select "General (compact)"
+7. You will now be back in the **Create New Project** dialog.  Close the dialog by hitting the **Cancel** button.  There is a small bug, wher new resources sometimes are not refreshed.  Click the **New Project** button again.  You should now see the default resource filled in.
 
-8. Select **Create Project** to create the new project.
+8. In this step, you will fill in the settings for the Custom Vision project (Screenshot shown below)
+- In the **Name** field, fill in the name of the project.  In this example, the name **US State License Classifier** was used.
+- In the **Decscription** field, fill in the name of the description.  In this example, the description **Classifier - Multiclass** was used.
+- In the Resource dropdown, select the resource you want to use.  If you created a new resource in steps #5-#7, it should be the selected default.
+- In **Project Types** ensure **Classification** is selected.
+- In **Classification Types** ensure **Multiclass (Single Tag per image)** is selected.
+- In the **Domains**, select **General** or **General (compact)**
+- Before proceeding, hover over the information icons to understand these settings further.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewProjectFull.png">
+</p>
 
-9. You now have a new project created.  In order to get started building a classifier, you need to add some images.  Select the **Add Images** button from the center of the UI screen.  (Screenshot shown below with the button highlighted in red)
+9. Select the **Create Project** button to create the new project.
+
+10. You now have a new project created!  Machine learning models learn by providing the algorithm various examples.  Let's add some examples.  In this scenario in order to get started building a classifier, you need to add some images of licenses.  Select the **Add Images** button from the center of the UI screen.  (Screenshot shown below with the button highlighted in red)
 
 ![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages.png)
 
-10. A menu will appear on the right-hand side.  Select the **Browse local files** to add some images.  A file selection menu will appear.  Navigate to the local folder where you downloaded the training & validation images.  In the **Training folder** select the **NewYork** folder and then finally select all of the image files in that Training/NewYork folder (shown in the screenshot below).  Important Note:  **DO NOT** select images from the validation folder.
+11. A menu will appear on the right-hand side.  Select the **Browse local files** to add some images.  A file selection menu will appear.  Navigate to the local folder where you downloaded the training & validation images.  In the **Training folder** select the **NewYork** folder and then finally select all of the image files in that Training/NewYork folder (shown in the screenshot below).  Important Note:  **DO NOT** select images from the validation folder.
 
 ![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-SelectedTraining.png)
 
-11. The selected drivers licenses images will upload to the Custom Vision service.  You now need to let the service know what these images are.  In supervised Machine Learning problems, this is called "labeling or tagging" of the data.  Since, all of the images we added belong to **NewYork** types of drivers licenses; simply enter **NewYork** under the **My Tags** field.  This will label all of the 19 drivers licenses images as NewYork. (Screenshot below)
+12. The selected drivers licenses images will upload to the Custom Vision service.  You now need to let the service know what these images are.  In supervised Machine Learning problems, this is called "labeling or tagging" of the data.  Since, all of the images we added belong to **NewYork** types of drivers licenses; simply enter **NewYork** under the **My Tags** field.  This will label all of the 19 drivers licenses images as NewYork. (Screenshot below)
 <p align="center">
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-Tagged.png">
 </p>
 
-12. Select the **Upload 19 Images** button.  This will upload the images to the Custom Vision service with the provided tags.  Depending on your internet connection and location relative to the default Custom Vision service, this may take a couple minutes.  After all the images are uploaded, click the **Done** button to confirm the successful creation of the images & tags.
+13. Select the **Upload 19 Images** button.  This will upload the images to the Custom Vision service with the provided tags.  Depending on your internet connection and location relative to the default Custom Vision service, this may take a couple minutes.  After all the images are uploaded, click the **Done** button to confirm the successful creation of the images & tags.
 
-13. You have successfully uploaded & tagged (labeled) one set of driver's licenses images for NewYork.  However, in order to build a classifier that can distinguish between different types of drivers licenses; you need to provide examples of different drivers license images.  **Repeat steps #7 - #9** for the remaining image types: **Illinois, NewJersey, California, Texas** using the respective files and tag name for each folder.  Select the **Add Images** button to repeat the image adding process.
+14. You have successfully uploaded & tagged (labeled) one set of driver's licenses images for NewYork.  However, in order to build a classifier that can distinguish between different types of drivers licenses; you need to provide examples of different drivers license images.  **Repeat steps #7 - #9** for the remaining image types: **Illinois, NewJersey, California, Texas** using the respective files and tag name for each folder.  Select the **Add Images** button to repeat the image adding process.
 
-14. After you have uploaded all of your images and tagged (labeled) them, you should notice on the left-hand side a summary of the image assets that are contained in the Custom Vision service.  Before proceeding to the next task of building the classifier, ensure that all of the 5 different license types are present.  Your project summary pane should look similar to the screenshot below.
+15. After you have uploaded all of your images and tagged (labeled) them, you should notice on the left-hand side a summary of the image assets that are contained in the Custom Vision service.  Before proceeding to the next task of building the classifier, ensure that all of the 5 different license types are present.  Your project summary pane should look similar to the screenshot below.
 <p align="center">
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-AllTagged.png">
 </p>
