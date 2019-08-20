@@ -33,7 +33,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 ### Task 1: Creating a Custom Vision Project & Adding Training Image Data ###
 
-1. Download the **Drivers Licenses training & validation Images** that are located in there DriversLicenesImages in this repository: https://github.com/bartczernicki/ImageClassificationStateLicenses/tree/master/DriversLicensesImages
+1. Download the **Drivers Licenses training & validation Images** that are located in the DriversLicenesImages in this repository: https://github.com/bartczernicki/ImageClassificationStateLicenses/tree/master/DriversLicensesImages
 
 2. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account) that has an active Azure Subscription.  If prompted, Agree to any terms of service. If you do not have an Azure subscription, do not worry you can get a FREE trial here: https://azure.com/free
 
