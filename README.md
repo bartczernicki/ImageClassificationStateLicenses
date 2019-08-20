@@ -48,7 +48,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - In the Name label (fill in any name).  In this example, **DemoCustomVision** was used.
 - In the Location label, select the closest Azure location to you.  In this example, **East US 2** was used.
 <p align="center">
-  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewResourceGroup.png">
+  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResourceGroup.png">
 </p>
 
 4. A properties pane will appear on the right-hands side.  Give the project a **Name** (i.e. DemoStateLicenses).  Enter a **Description** (i.e. Image Classification of State Licenses).  In **Project Type** ensure that "Classification" is selected.  In the **Domain** selection fields, select "General (compact)"
