@@ -112,6 +112,8 @@ This lab is intended for aspiring AI professionals that would like to learn more
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-Train.png">
 </p>
 
+2. A dialog will appear to select the training type.  Two types are provided a Fast & Advanced training option.  Select, the **Fast Training** option.  This option is ideal for exploration of data and identifying the plausability of using AI - Custom Vision.
+
 2. The Custom Vision service has begun training an image classifier.  You will be shown a screen that highlights the progress.  After a few minutes, a web screen will display the **performance characteristics** of the built classifier in both summary (overall model performance) and for each different type of license.  These metrics can help you quickly baseline the quality of your classifier.  The screenshot below shows the performance metrics UI:
 <p align="center">
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-PostTrain.png">
