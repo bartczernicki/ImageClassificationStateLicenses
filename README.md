@@ -39,7 +39,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 3. Select the **New Project** buttom (Screenshot shown below)
 <p align="center">
-  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProjectv2.png">
+  <img width=900 height=563 src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProjectv2.png">
 </p>
 
 4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #7.  If you have a Custom Vision resource ready to use, please continue at step #8 (skip steps #5-#7).
