@@ -39,7 +39,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 3. Select the **New Project** bottom (Screenshot shown below)
 <p align="center">
-  <img width="163" height="217" src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProject.png">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProjectv2.png">
 </p>
 
 4. A properties pane will appear on the right-hands side.  Give the project a **Name** (i.e. DemoStateLicenses).  Enter a **Description** (i.e. Image Classification of State Licenses).  In **Project Type** ensure that "Classification" is selected.  In the **Domain** selection fields, select "General (compact)"
