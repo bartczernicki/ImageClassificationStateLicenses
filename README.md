@@ -44,7 +44,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #7.  If you have a Custom Vision resource ready to use, please continue at step #8 (skip steps #5-#7).
 
-5. Select the Azure Subscription you want to use.  A **create new** link will appear next to the Resource Group label.  Next, click the **create new** link next to the **Resource Group** label.  The **Create New Resource Group** dialog will appear (Screenshot shown below).
+5. A **create new** link will appear next to the Resource label.  Next, click the **create new** link next to the **Resource** label.  Select a the Azure Subscription. After selecting the subscription, a **create new** link next to the **Resource Group** label will appear (note: This is different than the prior step).  The **Create New Resource Group** dialog will appear (Screenshot shown below).
 - In the Name label (fill in any name).  In this example, **DemoCustomVision** was used.
 - In the Location label, select the closest Azure location to you.  In this example, **East US 2** was used.
 - Click the **Create Resource Group** button to create the resource group.  This will create the Resource Group and take you back to the previous **Create New Resource** dialog.
@@ -59,7 +59,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - In the Resource Group section, the resource group created in step #5 should be selected by default.
 - Select **CustomVision.Training** as the Kind of resource
 - In the location field, select the same region that was selected in step #5.  In this example, **East US 2** was used.
-- Select **F0** as the pricing tier.  This is the FREE pricing tier for Custom Vision.  If you would like to use this example for advanced testing, feel free to select more advanced pricing options.
+- Select **F0** as the pricing tier.  This is the FREE pricing tier for Custom Vision.  If you would like to use this example for advanced testing, feel free to select more advanced pricing options.  (Note: you cannot create multiple FREE accounts.  You will get an error toast notification if you try to do so).
 - Click the **Create resource** button to create the resource.
 <p align="center">
   <img width=800 height=796 src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResource.png">
