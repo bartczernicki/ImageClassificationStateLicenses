@@ -49,7 +49,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - In the Location label, select the closest Azure location to you.  In this example, **East US 2** was used.
 - Click the **Create Resource Group** button to create the resource group.  This will create the Resource Group and take you back to the previous **Create New Resource** dialog.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResourceGroup.png">
+  <img width=800 height=415 src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResourceGroup.png">
 </p>
 
 
