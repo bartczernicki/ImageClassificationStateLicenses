@@ -85,7 +85,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 ![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages.png)
 
-11. A menu will appear on the right-hand side.  Select the **Browse local files** to add some images.  A file selection menu will appear.  Navigate to the local folder where you downloaded the training & validation images.  In the **Training folder** select the **NewYork** folder and then finally select all of the image files in that Training/NewYork folder (shown in the screenshot below).  Important Note:  **DO NOT** select images from the validation folder.
+11. A dialog will appear to upload files.  Select the **Browse local files** to add the images of licenses.  A file selection menu will appear.  Navigate to the local folder where you downloaded the training & validation images.  In the **Training folder** select the **NewYork** folder and then finally select all of the image files in that Training/NewYork folder (shown in the screenshot below).  Important Note:  **DO NOT** select images from the validation folder.
 
 ![Custom Vision - Add Images](https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-SelectedTraining.png)
 
@@ -94,9 +94,9 @@ This lab is intended for aspiring AI professionals that would like to learn more
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-AddImages-Tagged.png">
 </p>
 
-13. Select the **Upload 19 Images** button.  This will upload the images to the Custom Vision service with the provided tags.  Depending on your internet connection and location relative to the default Custom Vision service, this may take a couple minutes.  After all the images are uploaded, click the **Done** button to confirm the successful creation of the images & tags.
+13. Select the **Upload 19 Files** button (this button will reflect the number of files being uploaded, so this will be different for different license types).  This will upload the images to the Custom Vision service with the provided tags.  Depending on your internet connection and location relative to the default Custom Vision service, this may take a couple minutes.  After all the images are uploaded, click the **Done** button to confirm the successful creation of the images & tags.
 
-14. You have successfully uploaded & tagged (labeled) one set of driver's licenses images for NewYork.  However, in order to build a classifier that can distinguish between different types of drivers licenses; you need to provide examples of different drivers license images.  **Repeat steps #7 - #9** for the remaining image types: **Illinois, NewJersey, California, Texas** using the respective files and tag name for each folder.  Select the **Add Images** button to repeat the image adding process.
+14. You have successfully uploaded & tagged (labeled) one set of driver's licenses images for NewYork.  However, in order to build a classifier that can distinguish between different types of drivers licenses; you need to provide examples of different drivers license images.  **Repeat steps #11 - #13** for the remaining image types: **Illinois, NewJersey, California, Texas** using the respective files and tag name for each folder.  Note: Select the **Add images** button (on the top menu bar) to repeat the image adding process.
 
 15. After you have uploaded all of your images and tagged (labeled) them, you should notice on the left-hand side a summary of the image assets that are contained in the Custom Vision service.  Before proceeding to the next task of building the classifier, ensure that all of the 5 different license types are present.  Your project summary pane should look similar to the screenshot below.
 <p align="center">
