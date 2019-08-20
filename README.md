@@ -37,9 +37,18 @@ This lab is intended for aspiring AI professionals that would like to learn more
 
 2. Navigate to the Custom Vision portal **https://customvision.ai**.  Select the **Sign In** button to log in with any Microsoft account (older name: Microsoft Live account) that has an active Azure Subscription.  If prompted, Agree to any terms of service. If you do not have an Azure subscription, do not worry you can get a FREE trial here: https://azure.com/free
 
-3. Select the **New Project** bottom (Screenshot shown below)
+3. Select the **New Project** buttom (Screenshot shown below)
 <p align="center">
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProjectv2.png">
+</p>
+
+4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #7.  If you have a Custom Vision resource, please continue at step #
+
+5. Click the **create new** link next to the **Resource Group** label.  The **Create New Resource Group** dialog will appear (Screenshot shown below).
+- In the Name label (fill in any name).  In this example, **DemoCustomVision** was used.
+- In the Location label, select the closest Azure location to you.  In this example, **East US 2** was used.
+<p align="center">
+  <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewResourceGroup.png">
 </p>
 
 4. A properties pane will appear on the right-hands side.  Give the project a **Name** (i.e. DemoStateLicenses).  Enter a **Description** (i.e. Image Classification of State Licenses).  In **Project Type** ensure that "Classification" is selected.  In the **Domain** selection fields, select "General (compact)"
