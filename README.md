@@ -42,7 +42,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
   <img src="https://github.com/bartczernicki/ImageClassificationStateLicenses/blob/master/WalkthroughImages/CustomVision-NewProjectv2.png">
 </p>
 
-4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #7.  If you have a Custom Vision resource ready to use, please continue at step #8.
+4. A **Create New Project** dialog box will appear.  If you have never worked with Custom Vision, don't have a Custom Vision resource group or are brand new to Custom Vision/Azure please follow steps #5 - #7.  If you have a Custom Vision resource ready to use, please continue at step #8 (skip steps #5-#7).
 
 5. Select the Azure Subscription you want to use.  A **create new** link will appear next to the Resource Group label.  Next, click the **create new** link next to the **Resource Group** label.  The **Create New Resource Group** dialog will appear (Screenshot shown below).
 - In the Name label (fill in any name).  In this example, **DemoCustomVision** was used.
@@ -52,6 +52,7 @@ This lab is intended for aspiring AI professionals that would like to learn more
   <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResourceGroup.png">
 </p>
 
+
 6. In the **Create New Resource** dialog, you should have the Resource Group populated.  Fill in the following fields:
 - In the Name label, fill the name of the resource.  In this example, **DemoCustomVision** was used (same names as the resource group)
 - Select the Azure Subscription to use.
@@ -60,6 +61,9 @@ This lab is intended for aspiring AI professionals that would like to learn more
 - In the location field, select the same region that was selected in step #5.  In this example, **East US 2** was used.
 - Select **F0** as the pricing tier.  This is the FREE pricing tier for Custom Vision.  If you would like to use this example for advanced testing, feel free to select more advanced pricing options.
 - Click the **Create resource** button to create the resource.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bartczernicki/ImageClassificationStateLicenses/master/WalkthroughImages/CustomVision-CreateNewResource.png">
+</p>
 
 7. You will now be back in the **Create New Project** dialog.  Close the dialog by hitting the **Cancel** button.  There is a small bug, wher new resources sometimes are not refreshed.  Click the **New Project** button again.  You should now see the default resource filled in.
 
