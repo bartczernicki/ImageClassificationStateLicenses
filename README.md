@@ -15,7 +15,8 @@ This walkthrough demonstrates how-to build an image classifier (classification m
 - Create a Custom Vision Project for Image Classification
 - Add custom training data: custom images of 5 different state licenses: California, Illinois, New Jersey, New York & Texas
 - Build an image classifier using adaptive learning
-- Evaluate the Performance of the image classifier
+- Test new images classifier has not seen before
+- Evaluate the Performance (using metrics) of the image classifier
 - Provide steps on how-to consume the built image classifier
 - Next Steps
 
