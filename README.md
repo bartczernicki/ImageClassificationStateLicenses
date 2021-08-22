@@ -9,6 +9,8 @@
 
 This walkthrough demonstrates how-to build an image classifier (classification model) using Microsoft Cognitive Services.  This walkthrough includes step by step instructions using the Custom Vision portal; requiring zero code.
 
+**Note:** The Forms Recgonizer Azure Cognitive Service now includes a pre-built AI model for personal identification documents, which can be used without having to train a new model and it will also perform OCR/extract the data. Consider using that functionality if it meets your scenerio. However, this walkthrough is still valid for adjacent or similar scnearios where pre-built models do not exist. https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-identification-cards  
+
 <a name="Objectives"></a>
 ## Objectives ##
 
