@@ -179,4 +179,4 @@ In this walkthrough lab you have learned how-to build an image classifier easily
 Next Steps:
 - If you would like to make the classifier more complex, feel free to add more more state licenses.  You can find new state images using Bing (or your favorite search engine).
 - Custom Vision Documentation: https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/
-- Custom Vision Video from //BUILD 2018: https://www.youtube.com/watch?v=ARkvs72uaxg
+- Custom Vision Video from //BUILD 2018: https://www.youtube.com/watch?v=ARkvs72uaxg 
